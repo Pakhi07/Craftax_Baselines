@@ -1,0 +1,7 @@
+Loading Craftax textures from cache.
+Textures successfully loaded from cache.
+Started logging
+Time to run experiment 197.44639205932617
+SPS:  5064.665854717329
+WARNING:absl:Configured `CheckpointManager` using deprecated legacy API. Please follow the instructions at https://orbax.readthedocs.io/en/latest/api_refactor.html to migrate by May 1st, 2024.
+saved runner state to /teamspace/studios/this_studio/Craftax_Baselines/wandb/run-20250715_092338-f7cj6do3/files/policies

@@ -1,0 +1,45 @@
+{
+  "os":  "Linux-6.8.0-1032-gcp-x86_64-with-glibc2.31",
+  "python":  "CPython 3.10.10",
+  "startedAt":  "2025-07-15T09:23:38.405147Z",
+  "args":  [
+    "--total_timesteps",
+    "1e6",
+    "--save_policy"
+  ],
+  "program":  "/teamspace/studios/this_studio/Craftax_Baselines/ppo.py",
+  "codePath":  "ppo.py",
+  "codePathLocal":  "ppo.py",
+  "git":  {
+    "remote":  "https://github.com/Pakhi07/Craftax_Baselines.git",
+    "commit":  "6c36bfe238dd9732f86bf26263e03d2e353561a9"
+  },
+  "email":  "pakhibanchalia2418@gmail.com",
+  "root":  "/teamspace/studios/this_studio/Craftax_Baselines",
+  "host":  "cs-01k06nk053a07zmefdyc7ws85z",
+  "executable":  "/home/zeus/miniconda3/envs/cloudspace/bin/python",
+  "cpu_count":  4,
+  "cpu_count_logical":  8,
+  "gpu":  "Tesla T4",
+  "gpu_count":  1,
+  "disk":  {
+    "/":  {
+      "total":  "395184570368",
+      "used":  "25442713600"
+    }
+  },
+  "memory":  {
+    "total":  "31538274304"
+  },
+  "gpu_nvidia":  [
+    {
+      "name":  "Tesla T4",
+      "memoryTotal":  "16106127360",
+      "cudaCores":  2560,
+      "architecture":  "Turing",
+      "uuid":  "GPU-85062b11-1f52-2df8-0f1f-903938348f8c"
+    }
+  ],
+  "cudaVersion":  "12.2",
+  "writerId":  "rhfy049icf5hrarjh2drax0ordlexllv"
+}

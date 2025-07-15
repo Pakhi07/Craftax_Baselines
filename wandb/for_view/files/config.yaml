@@ -1,0 +1,130 @@
+_wandb:
+    value:
+        cli_version: 0.21.0
+        e:
+            rhfy049icf5hrarjh2drax0ordlexllv:
+                args:
+                    - --total_timesteps
+                    - "1e6"
+                    - --save_policy
+                codePath: ppo.py
+                codePathLocal: ppo.py
+                cpu_count: 4
+                cpu_count_logical: 8
+                cudaVersion: "12.2"
+                disk:
+                    /:
+                        total: "395184570368"
+                        used: "25442713600"
+                email: pakhibanchalia2418@gmail.com
+                executable: /home/zeus/miniconda3/envs/cloudspace/bin/python
+                git:
+                    commit: 6c36bfe238dd9732f86bf26263e03d2e353561a9
+                    remote: https://github.com/Pakhi07/Craftax_Baselines.git
+                gpu: Tesla T4
+                gpu_count: 1
+                gpu_nvidia:
+                    - architecture: Turing
+                      cudaCores: 2560
+                      memoryTotal: "16106127360"
+                      name: Tesla T4
+                      uuid: GPU-85062b11-1f52-2df8-0f1f-903938348f8c
+                host: cs-01k06nk053a07zmefdyc7ws85z
+                memory:
+                    total: "31538274304"
+                os: Linux-6.8.0-1032-gcp-x86_64-with-glibc2.31
+                program: /teamspace/studios/this_studio/Craftax_Baselines/ppo.py
+                python: CPython 3.10.10
+                root: /teamspace/studios/this_studio/Craftax_Baselines
+                startedAt: "2025-07-15T09:23:38.405147Z"
+                writerId: rhfy049icf5hrarjh2drax0ordlexllv
+        m: []
+        python_version: 3.10.10
+        t:
+            "1":
+                - 12
+                - 45
+            "2":
+                - 12
+                - 45
+            "3":
+                - 13
+                - 16
+            "4": 3.10.10
+            "5": 0.21.0
+            "12": 0.21.0
+            "13": linux-x86_64
+ACTIVATION:
+    value: tanh
+ANNEAL_LR:
+    value: true
+CLIP_EPS:
+    value: 0.2
+DEBUG:
+    value: true
+E3B_LAMBDA:
+    value: 0.1
+E3B_REWARD_COEFF:
+    value: 1
+ENT_COEF:
+    value: 0.01
+ENV_NAME:
+    value: Craftax-Symbolic-v1
+EXPLORATION_UPDATE_EPOCHS:
+    value: 4
+GAE_LAMBDA:
+    value: 0.8
+GAMMA:
+    value: 0.99
+ICM_FORWARD_LOSS_COEF:
+    value: 1
+ICM_INVERSE_LOSS_COEF:
+    value: 1
+ICM_LATENT_SIZE:
+    value: 32
+ICM_LAYER_SIZE:
+    value: 256
+ICM_LR:
+    value: 0.0003
+ICM_REWARD_COEFF:
+    value: 1
+JIT:
+    value: true
+LAYER_SIZE:
+    value: 512
+LR:
+    value: 0.0002
+MAX_GRAD_NORM:
+    value: 1
+NUM_ENVS:
+    value: 1024
+NUM_MINIBATCHES:
+    value: 8
+NUM_REPEATS:
+    value: 1
+NUM_STEPS:
+    value: 64
+OPTIMISTIC_RESET_RATIO:
+    value: 16
+SAVE_POLICY:
+    value: true
+SEED:
+    value: 1087833297
+TOTAL_TIMESTEPS:
+    value: 1000000
+TRAIN_ICM:
+    value: false
+UPDATE_EPOCHS:
+    value: 4
+USE_E3B:
+    value: false
+USE_OPTIMISTIC_RESETS:
+    value: true
+USE_WANDB:
+    value: true
+VF_COEF:
+    value: 0.5
+WANDB_ENTITY:
+    value: null
+WANDB_PROJECT:
+    value: null
