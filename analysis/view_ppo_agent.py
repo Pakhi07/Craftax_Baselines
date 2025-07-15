@@ -7,7 +7,9 @@ import jax.numpy as jnp
 import numpy as np
 import optax
 import yaml
-from craftax.environment_base.wrappers import AutoResetEnvWrapper
+
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
+from wrappers import AutoResetEnvWrapper
 from flax.training.train_state import TrainState
 from orbax.checkpoint import (
     PyTreeCheckpointer,
