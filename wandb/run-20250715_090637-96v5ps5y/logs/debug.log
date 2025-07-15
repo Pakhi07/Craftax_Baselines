@@ -1,0 +1,21 @@
+2025-07-15 09:06:37,674 INFO    MainThread:3636 [wandb_setup.py:_flush():80] Current SDK version is 0.21.0
+2025-07-15 09:06:37,674 INFO    MainThread:3636 [wandb_setup.py:_flush():80] Configure stats pid to 3636
+2025-07-15 09:06:37,674 INFO    MainThread:3636 [wandb_setup.py:_flush():80] Loading settings from /teamspace/studios/this_studio/.config/wandb/settings
+2025-07-15 09:06:37,674 INFO    MainThread:3636 [wandb_setup.py:_flush():80] Loading settings from /teamspace/studios/this_studio/Craftax_Baselines/wandb/settings
+2025-07-15 09:06:37,674 INFO    MainThread:3636 [wandb_setup.py:_flush():80] Loading settings from environment variables
+2025-07-15 09:06:37,674 INFO    MainThread:3636 [wandb_init.py:setup_run_log_directory():703] Logging user logs to /teamspace/studios/this_studio/Craftax_Baselines/wandb/run-20250715_090637-96v5ps5y/logs/debug.log
+2025-07-15 09:06:37,674 INFO    MainThread:3636 [wandb_init.py:setup_run_log_directory():704] Logging internal logs to /teamspace/studios/this_studio/Craftax_Baselines/wandb/run-20250715_090637-96v5ps5y/logs/debug-internal.log
+2025-07-15 09:06:37,675 INFO    MainThread:3636 [wandb_init.py:init():830] calling init triggers
+2025-07-15 09:06:37,675 INFO    MainThread:3636 [wandb_init.py:init():835] wandb.init called with sweep_config: {}
+config: {'ENV_NAME': 'Craftax-Symbolic-v1', 'NUM_ENVS': 1024, 'TOTAL_TIMESTEPS': 1000000, 'LR': 0.0002, 'NUM_STEPS': 64, 'UPDATE_EPOCHS': 4, 'NUM_MINIBATCHES': 8, 'GAMMA': 0.99, 'GAE_LAMBDA': 0.8, 'CLIP_EPS': 0.2, 'ENT_COEF': 0.01, 'VF_COEF': 0.5, 'MAX_GRAD_NORM': 1.0, 'ACTIVATION': 'tanh', 'ANNEAL_LR': True, 'DEBUG': True, 'JIT': True, 'SEED': 1149843536, 'USE_WANDB': True, 'SAVE_POLICY': True, 'NUM_REPEATS': 1, 'LAYER_SIZE': 512, 'WANDB_PROJECT': None, 'WANDB_ENTITY': None, 'USE_OPTIMISTIC_RESETS': True, 'OPTIMISTIC_RESET_RATIO': 16, 'EXPLORATION_UPDATE_EPOCHS': 4, 'ICM_REWARD_COEFF': 1.0, 'TRAIN_ICM': False, 'ICM_LR': 0.0003, 'ICM_FORWARD_LOSS_COEF': 1.0, 'ICM_INVERSE_LOSS_COEF': 1.0, 'ICM_LAYER_SIZE': 256, 'ICM_LATENT_SIZE': 32, 'E3B_REWARD_COEFF': 1.0, 'USE_E3B': False, 'E3B_LAMBDA': 0.1, '_wandb': {}}
+2025-07-15 09:06:37,675 INFO    MainThread:3636 [wandb_init.py:init():871] starting backend
+2025-07-15 09:06:38,083 INFO    MainThread:3636 [wandb_init.py:init():874] sending inform_init request
+2025-07-15 09:06:38,093 INFO    MainThread:3636 [wandb_init.py:init():882] backend started and connected
+2025-07-15 09:06:38,095 INFO    MainThread:3636 [wandb_init.py:init():953] updated telemetry
+2025-07-15 09:06:38,105 INFO    MainThread:3636 [wandb_init.py:init():977] communicating run to backend with 90.0 second timeout
+2025-07-15 09:06:38,420 INFO    MainThread:3636 [wandb_init.py:init():1029] starting run threads in backend
+2025-07-15 09:06:38,597 INFO    MainThread:3636 [wandb_run.py:_console_start():2458] atexit reg
+2025-07-15 09:06:38,597 INFO    MainThread:3636 [wandb_run.py:_redirect():2306] redirect: wrap_raw
+2025-07-15 09:06:38,597 INFO    MainThread:3636 [wandb_run.py:_redirect():2375] Wrapping output streams.
+2025-07-15 09:06:38,597 INFO    MainThread:3636 [wandb_run.py:_redirect():2398] Redirects installed.
+2025-07-15 09:06:38,601 INFO    MainThread:3636 [wandb_init.py:init():1075] run started, returning control to user process

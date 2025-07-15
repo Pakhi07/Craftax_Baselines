@@ -1,5 +1,5 @@
 tmp/
-wandb/run-*
+wandb/
 res/
 runs/
 
